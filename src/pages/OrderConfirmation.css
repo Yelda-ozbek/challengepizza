@@ -10,13 +10,6 @@
     box-sizing: border-box;
 }
 
-.order-confirmation h1 {
-
-    color: white;
-    font-size: 20pt;
-    font-family: "Roboto Condensed", serif;
-}
-
 .order-confirmation .content {
 
     height: 100%;

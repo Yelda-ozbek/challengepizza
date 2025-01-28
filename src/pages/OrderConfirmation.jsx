@@ -1,9 +1,11 @@
 import "./OrderConfirmation.css";
 
+import Logo from "../../images/iteration-1-images/logo.svg";
+
 const OrderConfirmation = () => {
 
     return <div className="order-confirmation">
-        <h1>Teknolojik Yemekler</h1>
+        <img src={Logo} />
         <div className="content">
             <p>
                 TEBRIKLER!<br />

@@ -19,7 +19,7 @@ function App() {
         //         </Route>
         //     </Switch>
         // </Router>
-        <OrderConfirmation />
+        <Home />
     );
 }
 
