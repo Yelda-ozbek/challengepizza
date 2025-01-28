@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
-import Order from "./pages/Order";
+import OrderForm from "./pages/OrderForm";
 import OrderConfirmation from "./pages/OrderConfirmation";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         //         </Route>
         //     </Switch>
         // </Router>
-        <Home />
+        <OrderForm />
     );
 }
 
