@@ -1,18 +1,26 @@
-import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import Home from "./pages/Home";
 import Order from "./pages/Order";
 import OrderConfirmation from "./pages/OrderConfirmation";
 
-function App(){
- return (
-  <Router>
-   <Routes>
-    <Route path="/" element = {<Home/>} />
-    <Route path="/siparis" element = {<Order/>} />
-    <Route path="/siparis-onay" element = {<OrderConfirmation/>} />
-   </Routes>
-  </Router>
- );
+function App() {
+    return (
+        // <Router>
+        //     <Switch>
+        //         <Route exact path="/">
+        //             <Home />
+        //         </Route>
+        //         <Route path="/siparis" element={<Order />}>
+        //             <Order />
+        //         </Route>
+        //         <Route path="/siparis-onay">
+        //             <OrderConfirmation />
+        //         </Route>
+        //     </Switch>
+        // </Router>
+        <OrderConfirmation />
+    );
 }
 
 export default App; 

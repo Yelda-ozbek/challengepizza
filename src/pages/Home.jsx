@@ -1,9 +1,8 @@
-import Hero from "./compontents/Hero";
+import "./Home.css";
 
 const Home = () => {
     return (
         <div className="home">
-            <Hero />
         </div>
     );
 };
